@@ -20,32 +20,32 @@
         <div class="header-main__img">
           <picture>
             <source
-              srcset="/build/images/header/main.webp"
+              srcset="build/images/header/main.webp"
               media="(min-width: 769px)"
               type="image/webp"
             />
             <source
-              srcset="/build/images/header/main.png"
+              srcset="build/images/header/main.png"
               media="(min-width: 769px)"
             />
 
             <source
-              srcset="/build/images/header/main@1x.webp"
+              srcset="build/images/header/main@1x.webp"
               media="(min-width: 577px)"
               type="image/webp"
             />
             <source
-              srcset="/build/images/header/main@1x.png"
+              srcset="build/images/header/main@1x.png"
               media="(min-width: 577px)"
             />
 
             <source
-              srcset="/build/images/header/main@05x.webp"
+              srcset="build/images/header/main@05x.webp"
               type="image/webp"
             />
             <img
               class="main"
-              src="/build/images/header/main@05x.png"
+              src="build/images/header/main@05x.png"
               alt="самогонный аппарат дионис"
             />
           </picture>

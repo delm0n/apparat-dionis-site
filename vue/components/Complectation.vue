@@ -232,7 +232,6 @@ export default {
     .complectation-item {
       @include aspect() {
         aspect-ratio: 1/1;
-        width: auto;
       }
 
       picture {

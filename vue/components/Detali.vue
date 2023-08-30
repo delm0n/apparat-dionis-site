@@ -26,24 +26,24 @@
         <div class="detali-wrapper__img">
           <picture>
             <source
-              data-srcset="/build/images/detali/detali.webp"
+              data-srcset="build/images/detali/detali.webp"
               media="(min-width: 1366px)"
               type="image/webp"
-              srcset="/build/images/detali/detali.webp" />
+              srcset="build/images/detali/detali.webp" />
             <source
-              data-srcset="/build/images/detali/detali.png"
+              data-srcset="build/images/detali/detali.png"
               media="(min-width: 1366px)"
-              srcset="/build/images/detali/detali.png" />
+              srcset="build/images/detali/detali.png" />
 
             <source
-              data-srcset="/build/images/detali/detali@05x.webp"
+              data-srcset="build/images/detali/detali@05x.webp"
               type="image/webp"
-              srcset="/build/images/detali/detali@05x.webp" />
+              srcset="build/images/detali/detali@05x.webp" />
             <img
               class="lazy"
-              data-src="/build/images/detali/detali@05x.png"
+              data-src="build/images/detali/detali@05x.png"
               alt=""
-              src="/build/images/detali/detali@05x.png"
+              src="build/images/detali/detali@05x.png"
           /></picture>
 
           <template v-if="mobile">
