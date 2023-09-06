@@ -64,6 +64,7 @@
             :mobile="false"
           />
           <iframe
+            v-if="iframeBool"
             title="model3d"
             src="model3d/model.html"
             width="100%"
@@ -88,7 +89,7 @@ export default {
   data() {
     return {
       mobile: window.innerWidth < 769,
-
+      iframeBool: false,
       photoes: [
         {
           img: "photo-1",
@@ -155,6 +156,23 @@ export default {
 
     windowbreakpoint.addListener(breakpointChecker);
     breakpointChecker();
+
+    this.gsap.timeline({
+      delay: 2,
+      scrollTrigger: {
+        once: true,
+        trigger: "#photo",
+        start: "-60% bottom",
+        onEnter: this.getModel,
+        onEnterBack: this.getModel,
+      },
+    });
+  },
+
+  methods: {
+    getModel() {
+      this.iframeBool = true;
+    },
   },
 
   components: {
