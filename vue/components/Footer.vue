@@ -52,7 +52,7 @@
               >
             </li>
           </ul>
-          <a :href="!opt ? '/opt' : '/'" class="button footer__btn">
+          <a :href="!opt ? '/' : '/'" class="button footer__btn">
             {{ !opt ? "Купить оптом" : "Купить в розницу" }}</a
           >
         </div>

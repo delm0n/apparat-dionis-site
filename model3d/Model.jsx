@@ -7,7 +7,7 @@ import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 export default function Model(props) {
-  const { nodes, materials } = useGLTF("/cub2.glb");
+  const { nodes, materials } = useGLTF("cub2.glb");
   return (
     <group {...props} dispose={null}>
       <mesh
@@ -756,4 +756,4 @@ export default function Model(props) {
   );
 }
 
-useGLTF.preload("/cub2.glb");
+useGLTF.preload("cub2.glb");
