@@ -623,7 +623,7 @@ export default {
 
     &:before {
       content: url("../images/header/arrow-tippy.svg");
-      bottom: -30px;
+      bottom: -27px;
       border: none;
     }
   }
