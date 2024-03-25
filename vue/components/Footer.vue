@@ -36,23 +36,15 @@
         <div class="footer__column-links">
           <ul class="footer__list">
             <li class="footer__item">
-              <a
-                target="_blank"
-                class="footer__link"
-                href="uploadupdate/confidentiality.pdf"
+              <a target="_blank" class="footer__link" href=""
                 >Политика конфиденциальности</a
               >
             </li>
             <li class="footer__item">
-              <a
-                target="_blank"
-                class="footer__link"
-                href="uploadupdate/oferta-rus.pdf"
-                >Договор оферты</a
-              >
+              <a target="_blank" class="footer__link" href="">Договор оферты</a>
             </li>
           </ul>
-          <a :href="!opt ? '/' : '/'" class="button footer__btn">
+          <a href="" class="button footer__btn">
             {{ !opt ? "Купить оптом" : "Купить в розницу" }}</a
           >
         </div>

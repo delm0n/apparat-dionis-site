@@ -397,7 +397,7 @@ export default {
                 document.querySelector("." + selector).offsetHeight,
             },
           });
-        }, 500);
+        }, 1000);
       }
     },
 
